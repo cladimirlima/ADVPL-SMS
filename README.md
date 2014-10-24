@@ -10,6 +10,8 @@ Hoje o protheus não apresenta nenhuma solução para envio de SMS nativa, recen
 ##Como fazer a instalação 
 Primeiro é necessário aplicar o Patch SMS.ptm, após isso confira o arquivo src/SMSTESTE.PRW que faz as chamadas de envio
 
+**Números de telefone devem ser informados seguindo o seguinte, padrão 2 dígitos para o ddd, e 8 à 9 dígitos para o número de telefone**
+
 ##Funcoes para envio
 	/*/{Protheus.doc} SMSServic
 	Método para envio de sms por provedor SMS (Gateway)
