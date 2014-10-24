@@ -34,7 +34,7 @@ Primeiro é necessário aplicar o Patch SMS.ptm, após isso confira o arquivo sr
 	@param cPhone, character, (numero do telefone com DDD)
 	@param cText, character, (Texto a ser enviado)
 	@param cModem, character, (porta aonde esta conctado o modem)
-	@param nType, numérico, (1-modem conectado no client / 2-modem conectado no servidor)
+	@param nType, numérico, (1-modem conectado no client / 2-modem conectado no servidor) *VÁLIDO SOMENTE PARA VERSAO PAGA,USAR 1 PARA TESTE
 	@return ${null}, ${sem retorno}
 	@example
 	CONFIRA SMSDIALG() NO ARQUIVO SMSTESTE.PRW
